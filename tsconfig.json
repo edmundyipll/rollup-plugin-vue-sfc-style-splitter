@@ -1,0 +1,16 @@
+{
+    "include": ["src/**/*.ts"],
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "module": "CommonJS",
+        "target": "ES2015",
+        "baseUrl": ".",
+        "moduleResolution": "node",
+        "outDir": "lib",
+        "declaration": true,
+        "skipLibCheck": true,
+        "types": [
+            "node"
+        ]
+    }
+}
